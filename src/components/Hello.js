@@ -1,6 +1,10 @@
+const name = "Oliver";
 
+const displayMessage= ()=>{
+    return "I need help!";
+};
 function Hello(){
-    return <h1>Hello World!</h1>
+    return <h1>The message is:  {displayMessage()}</h1>
 }
 
 

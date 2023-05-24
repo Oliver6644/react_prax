@@ -6,7 +6,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <div className="App">
-     <Message messagecode="10" messagecontent="This is a message from props"/>
+     <Profile name="Oliver" lastname="Tkac" />
     </div>
   );
 }

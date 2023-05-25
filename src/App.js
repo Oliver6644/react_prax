@@ -13,10 +13,11 @@ import FunctionalCounter from "./components/FunctionalCounter";
 import ConditionalCompoment from './components/ConditionalComponent';
 import Product from './components/Product';
 import InlineComponent from "./components/InlineComponent";
+import StylesheetComponent from './components/StylesheetComponent';
 function App() {
   return (
     <div className="App">
-     <InlineComponent></InlineComponent>
+     <StylesheetComponent></StylesheetComponent>
     </div>
   );
 }

@@ -7,11 +7,17 @@ class Counter extends Component{
         counter: 0,
     };  
     }
+
+  increment(){
+    this.setState({
+       counter: this.state.counter + 1,
+    });
+  }  
   render(){
     return (
     <div>
-        <h3>Count value is: {this.state.counter} </h3>
-      <button>Click</button>
+      <h3>Count value is: {this.state.counter} </h3>
+      <button onClick={()=> this.increment()} >Click</button>
     </div>)
      
     ; 

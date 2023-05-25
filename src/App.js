@@ -9,11 +9,11 @@ import FunctionalCounter from "./components/FunctionalCounter";
 //import FunctionEvent from './components/FunctionEvent';
 //import ClassEvent from "./components/ClassEvent";
 import ConditionalCompoment from './components/ConditionalComponent';
-
+import Product from './components/Product';
 function App() {
   return (
     <div className="App">
-     <ConditionalCompoment></ConditionalCompoment>
+     <Product></Product>
     </div>
   );
 }

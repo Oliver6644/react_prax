@@ -12,10 +12,11 @@ import FunctionalCounter from "./components/FunctionalCounter";
 //import ClassEvent from "./components/ClassEvent";
 import ConditionalCompoment from './components/ConditionalComponent';
 import Product from './components/Product';
+import InlineComponent from "./components/InlineComponent";
 function App() {
   return (
     <div className="App">
-     <Todo></Todo>
+     <InlineComponent></InlineComponent>
     </div>
   );
 }

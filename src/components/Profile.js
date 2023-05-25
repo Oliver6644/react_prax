@@ -1,6 +1,6 @@
 function Profile(props){
     console.log(props);
-    props.name = "Jake";
+   
    return (
 
     <h1>

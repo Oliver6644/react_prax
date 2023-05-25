@@ -14,10 +14,11 @@ import ConditionalCompoment from './components/ConditionalComponent';
 import Product from './components/Product';
 import InlineComponent from "./components/InlineComponent";
 import StylesheetComponent from './components/StylesheetComponent';
+import ModuleComponent from './components/ModuleComponent';
 function App() {
   return (
     <div className="App">
-     <StylesheetComponent></StylesheetComponent>
+       <ModuleComponent />   
     </div>
   );
 }

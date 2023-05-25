@@ -3,6 +3,7 @@ import './App.css';
 //import Hello from './components/Hello';
 //import Message from "./components/Message";
 //import Profile from "./components/Profile";
+import Form from './components/Form';
 import Counter from "./components/Counter";
 import FunctionalCounter from "./components/FunctionalCounter";
 //import Resume from "./components/Resume";
@@ -13,7 +14,7 @@ import Product from './components/Product';
 function App() {
   return (
     <div className="App">
-     <Product></Product>
+     <Form></Form>
     </div>
   );
 }

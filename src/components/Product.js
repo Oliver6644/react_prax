@@ -1,11 +1,11 @@
 export default function Product() {
   //const products = ["Laptop","Phone","Modem","Computer","Laptop"];
-  const products = [
+  /*const products = [
     { id: 1, name: "Laptop", price: 500 },
     { id: 2, name: "Phone", price: 200 },
     { id: 3, name: "Modem", price: 50 },
     { id: 4, name: "Laptop", price: 900 },
-  ];
+  ];*/
   const fruits = ["Apple", "Mango", "Banana"];
   /*
    

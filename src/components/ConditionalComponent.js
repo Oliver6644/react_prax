@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function ConditionalCompoment() {
-  const [display, setDisplay] = useState(true);
+  const [display /*setDisplay*/] = useState(true);
 
   return display ? (
     <div>

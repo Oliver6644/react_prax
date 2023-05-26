@@ -1,4 +1,4 @@
-const name = "Oliver";
+//const name = "Oliver";
 
 const displayMessage = () => {
   return "I need help!";

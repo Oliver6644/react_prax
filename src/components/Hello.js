@@ -1,12 +1,10 @@
 const name = "Oliver";
 
-const displayMessage= ()=>{
-    return "I need help!";
+const displayMessage = () => {
+  return "I need help!";
 };
-function Hello(){
-    return <h1>The message is:  {displayMessage()}</h1>
+function Hello() {
+  return <h1>The message is: {displayMessage()}</h1>;
 }
-
-
 
 export default Hello;

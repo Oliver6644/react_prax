@@ -1,3 +1,3 @@
-export default function Listitem({name}){
-    return <div>{name}</div>;
+export default function Listitem({ name }) {
+  return <div>{name}</div>;
 }
